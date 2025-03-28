@@ -1,0 +1,119 @@
+{
+    "nom": "Philippe Beaufort",
+    "adresse": "1181 Rang de la Grande-Chaloupe, Saint-Thomas",
+    "titre": "Diplomé en ingérierie logiciel",
+    "email": "philippe.beaufort98@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/philippe-beaufort/",
+    "tel": "(438) 349-1725",
+    "languages": ["français", "anglais fonctionnel"],
+    "presentation": [
+        "Je suis motivé par les défis techniques et je cherche constamment à apprendre et à m'améliorer. Je suis également un bon communicateur et j'apprécie le travail d'équipe."
+    ],
+    "formation": [
+        {
+            "ecole": "École de technologie supérieure (ÉTS)",
+            "location": "Montréal, QC",
+            "items":[
+                {
+                    "info": "Baccalauréat en génie logiciel",
+                    "date_debut": "",
+                    "date_fin": "décembre 2024"
+                },
+                {
+                    "info": "Certificat en génie logiciel",
+                    "date_debut": "",
+                    "date_fin": "2020"
+                }
+            ]
+        },
+        {
+            "ecole": "Cégep régional de Lanaudière",
+            "location": "Joliette, QC",
+            "items":[
+                {
+                    "info": "Diplôme d'étude collégiales en science de la nature",
+                    "date_debut": "",
+                    "date_fin": "2019"
+                }
+            ]
+        }
+    ],
+    "competences": [
+        "Node.js",
+        "Angular",
+        "Docker",
+        "Spring Boot",
+        "Github Actions",
+        "Librairies Google",
+        "Google Build et déploiment Cloud Run",
+        "Google Cloud Platform",
+        "Google Firebase",
+        "Firestore",
+        "MongoDB",
+        "PostGreSQL",
+        "Postman",
+        "Git"
+    ],
+    "language_code": [
+        "Java",
+        "Gosu",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "HTML/CSS",
+        "C#",
+        "SQL"
+    ],
+    "experiences": [
+        {
+            "entreprise": "École de technologie supérieure (ÉTS)",
+            "image": "https://media.licdn.com/dms/image/v2/C4D0BAQH41MxloiQfaA/company-logo_100_100/company-logo_100_100/0/1631342438752?e=1748476800&v=beta&t=acITJUGEJ7OPcSfX-bKGpwgi6e3BeatuxY7TjK1YHOg",
+            "location": "Montréal, QC",
+            "postes": [
+                {
+                    "poste": "Analyste informatique",
+                    "type": "Indépendant",
+                    "date_debut": "01-2025",
+                    "date_fin": "Présent",
+                    "description": [
+                        "S'assurer de l'intégration des nouveaux processus d'affaire à la plateforme Chatbot de l'ÉTS"
+                    ]
+                },
+                {
+                    "poste": "Analyste en en amélioration de processus internes",
+                    "type": "Stage Hybride",
+                    "date_debut": "09-2023",
+                    "date_fin": "12-2024",
+                    "description": [
+                        "S'assurer de l'intégration des nouveaux processus d'affaire à la plateforme Chatbot de l'ÉTS"
+                    ]
+                }
+            ]
+        },
+        {
+            "entreprise": "Intact Assurance",
+            "image": "https://media.licdn.com/dms/image/v2/C560BAQGj_cFltge3sg/company-logo_100_100/company-logo_100_100/0/1657574419476?e=1748476800&v=beta&t=5lMgcXwbMdkuBqpLvyM0RrEbHUp71dOj-3A_4wmHmgs",
+            "location": "Saint-Hyacinthe, QC",
+            "postes": [
+                {
+                    "poste": "Développeur full stack",
+                    "type": "Stage",
+                    "date_debut": "09-2022",
+                    "date_fin": "05-2023",
+                    "description": [
+                        "S'assurer de l'intégration des nouveaux processus d'affaire à la plateforme Chatbot de l'ÉTS"
+                    ]
+                },
+                {
+                    "poste": "Analyste assurance qualité IT",
+                    "type": "Stage",
+                    "date_debut": "09-2021",
+                    "date_fin": "05-2022",
+                    "description": [
+                        "S'assurer de l'intégration des nouveaux processus d'affaire à la plateforme Chatbot de l'ÉTS"
+                    ]
+                }
+            ]
+        }
+    ]
+}
