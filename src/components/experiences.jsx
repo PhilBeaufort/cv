@@ -51,7 +51,7 @@ function Formations({ titre, experiences }) {
                         <div key={idx} className="border-t-2 border-base-300 pt-4">
                             <div class="flex items-center justify-between">
                                 <div className="flex items-center space-x-2">
-                                    <h4 class="font-bold text-base-content text-secondary">{p.poste}</h4>
+                                    <h4 class="font-bold text-secondary">{p.poste}</h4>
                                     <p class="text-sm">({p.type})</p>
                                 </div>
                                 <div className='w-1/5'>

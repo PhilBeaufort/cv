@@ -38,7 +38,7 @@ function App() {
                 </button>
               </div>
             </div>
-            <p class="text-sm">{data.tel}</p>
+            <p>📞 <span class="important-info">{data.tel}</span></p>
             <p class="text-sm">{data.languages.join(", ")}</p>
           </div>
         </div>
