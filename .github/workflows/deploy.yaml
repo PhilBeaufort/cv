@@ -1,24 +1,36 @@
-name: Deploy to GitHub Pages
+name: Deploy Vite React to GitHub Pages
 
 on:
   push:
     branches:
-      - main # Or your main branch name
+      - main  # Adjust if your default branch is different
+
+permissions:
+  contents: write  # Allows pushing to gh-pages
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Install and Build 🔧
-        run: |
-          npm install
-          npm run build
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
 
-      - name: Deploy 🚀
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Project
+        run: npm run build
+
+      - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist # The folder where your built app is located
+          branch: gh-pages  # Deploy to this branch
+          folder: dist       # The folder to publish
+          clean: true        # Removes old files before deploying
