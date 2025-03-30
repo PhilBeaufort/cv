@@ -1,13 +1,14 @@
 {
     "nom": "Philippe Beaufort",
     "adresse": "1181 Rang de la Grande-Chaloupe, Saint-Thomas",
-    "titre": "Diplomé en ingérierie logiciel",
+    "titre": "Diplômé en ingénierie logiciel",
     "email": "philippe.beaufort98@gmail.com",
     "linkedin": "https://www.linkedin.com/in/philippe-beaufort/",
     "tel": "(438) 349-1725",
     "languages": ["français", "anglais fonctionnel"],
     "presentation": [
-        "Je suis motivé par les défis techniques et je cherche constamment à apprendre et à m'améliorer. Je suis également un bon communicateur et j'apprécie le travail d'équipe."
+        "Récemment diplômé en génie logiciel de l'école de Technologie supérieure. J'ai développé des compétences solides en développement full stack, en gestion de projet et en amélioration de processus à travers mes stages.",
+        "Je suis familier avec la plateforme Google Cloud après mes expérience à L'École de technologie supérieure, je cherche toujours à apprendre sur de nouvelles technologies et je suis toujours à la recherche de nouveaux défis pour améliorer mes compétences."
     ],
     "formations": [
         {
@@ -16,11 +17,11 @@
             "items":[
                 {
                     "info": "Baccalauréat en génie logiciel",
-                    "date_debut": "",
+                    "date_debut": "2020",
                     "date_fin": "décembre 2024"
                 },
                 {
-                    "info": "Certificat en génie logiciel",
+                    "info": "Cheminement universitaire en technologie",
                     "date_debut": "",
                     "date_fin": "2020"
                 }
@@ -31,7 +32,7 @@
             "location": "Joliette, QC",
             "items":[
                 {
-                    "info": "Diplôme d'étude collégiales en science de la nature",
+                    "info": "Diplôme d'étude collégiale en sciences de la nature",
                     "date_debut": "",
                     "date_fin": "2019"
                 }
@@ -43,9 +44,9 @@
         "Angular",
         "Docker",
         "Spring Boot",
-        "Github Actions",
+        "GitHub Actions",
         "Librairies Google",
-        "Google Build et déploiment Cloud Run",
+        "Google Build et déploiement Cloud Run",
         "Google Cloud Platform",
         "Google Firebase",
         "Firestore",
@@ -76,16 +77,20 @@
                     "date_debut": "01-2025",
                     "date_fin": "Présent",
                     "description": [
-                        "S'assurer de l'intégration des nouveaux processus d'affaire à la plateforme Chatbot de l'ÉTS"
+                        "Effectuer la migration du chatbot développer sur Google Cloud de Dialogflow ES à CX",
+                        "Conception, développement et maintenance de services sur la plateforme Google Cloud pour la traduction ainsi que la catégorisation de statistique et la génération de graphiques automatisés",
+                        "Migrer les répertoires sur GitHub, automatiser les déploiement avec Cloud Build et mise en place d'une sécurité plus robuste avec Google Secret Manager"
                     ]
                 },
                 {
-                    "poste": "Analyste en en amélioration de processus internes",
-                    "type": "Stage Hybride",
+                    "poste": "Analyste en amélioration de processus internes",
+                    "type": "Stage hybride",
                     "date_debut": "09-2023",
                     "date_fin": "12-2024",
                     "description": [
-                        "S'assurer de l'intégration des nouveaux processus d'affaire à la plateforme Chatbot de l'ÉTS"
+                        "Gérer et développer un projet avec Google pour assister les agents téléphoniques du STI pour centraliser les connaissances et suggérer de la documentation pertinente pendant un appel",
+                        "Mettre en place un kiosque personnalisé au besoin du département avec Windows",
+                        "Développer des outils et des améliorations pour les solutions en place avec Google Cloud"
                     ]
                 }
             ]
@@ -101,7 +106,9 @@
                     "date_debut": "09-2022",
                     "date_fin": "05-2023",
                     "description": [
-                        "S'assurer de l'intégration des nouveaux processus d'affaire à la plateforme Chatbot de l'ÉTS"
+                        "Développer une application interne utilisant les outils Angular, Typescript, Node, Spring Boot, Java, Maven, H2, Hibernate, Oracle et Jenkins",
+                        "Rechercher et développer pour ajouter des fonctionnalités permettant de réaliser de tests automatisés dans cette application",
+                        "Mettre à jours et migrer des applications"
                     ]
                 },
                 {
@@ -110,7 +117,7 @@
                     "date_debut": "09-2021",
                     "date_fin": "05-2022",
                     "description": [
-                        "S'assurer de l'intégration des nouveaux processus d'affaire à la plateforme Chatbot de l'ÉTS"
+                        "Concevoir, entretenir, réparer et ajuster des tests fonctionnels automatisés avec les outils Cucumber, Fitness et Sélénium"
                     ]
                 }
             ]
