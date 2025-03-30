@@ -31,7 +31,7 @@ function Formations({ titre, formations }) {
                 <div key={index} className="bg-base-200 p-2 rounded-lg shadow-md border border-base-200">
                     <div className="flex items-center justify-between">
                         <h3 className="text-lg font-semibold text-primary">{f.ecole}</h3>
-                        <p className="text-sm text-base-content w-1/5 flex items-center">
+                        <p className="text-sm text-base-content w-1/4 flex items-center">
                             <img
                                 src="https://www.svgrepo.com/show/532540/location-pin-alt-1.svg"
                                 alt="Location Pin"
@@ -48,7 +48,7 @@ function Formations({ titre, formations }) {
                         <div key={idx} className="border-t-2 border-base-300 pt-1">
                             <div className="flex items-center justify-between">
                                 <h4 className="font-bold text-secondary">{item.info}</h4>
-                                <div className='w-1/5'>
+                                <div className='w-1/4'>
                                    <DateRange startDate={item.date_debut} endDate={item.date_fin}/> 
                                 </div>
                             </div>
