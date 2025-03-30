@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: Install linux build tools
-        run: npm install rollup @tailwindcss lightningcss
+        run: npm install rollup @tailwindcss/oxide-linux-x64-gnu lightningcss
 
 
       - name: Build Project
