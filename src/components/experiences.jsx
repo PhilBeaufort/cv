@@ -31,10 +31,10 @@ function Formations({ titre, experiences }) {
                 <div key={index} className="bg-base-200 p-3 rounded-lg shadow-md border border-base-300">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-4">
-                            <img src={e.image} alt={e.entreprise} className="w-20 h-20 rounded-md" />
+                            <img src={e.image} alt={e.entreprise} className="w-20 h-20 rounded-md flex-shrink-0" />
                             <h3 className="text-lg font-semibold text-primary">{e.entreprise}</h3>
                         </div>
-                        <p className="text-sm text-base-content w-1/4 flex items-center">
+                        <p className="text-sm text-base-content w-auto flex items-center">
                             <img
                                 src="https://www.svgrepo.com/show/532540/location-pin-alt-1.svg"
                                 alt="Location Pin"
@@ -54,7 +54,7 @@ function Formations({ titre, experiences }) {
                                     <h4 className="font-bold text-secondary">{p.poste}</h4>
                                     <p className="text-sm">({p.type})</p>
                                 </div>
-                                <div className='w-1/4'>
+                                <div className='w-auto'>
                                    <DateRange startDate={p.date_debut} endDate={p.date_fin}/> 
                                 </div>
                                 

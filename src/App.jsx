@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className="max-w-4xl mx-auto bg-base-100 p-3 rounded-lg shadow-lg print:bg-transparent print:shadow-none">
+      <div className="max-w-5xl mx-auto bg-base-100 p-3 rounded-lg shadow-lg print:bg-transparent print:shadow-none">
         {/* Header */}
         <div className="break-inside-avoid flex justify-between items-center mb-2">
           {/* Left side (Name, Address, Title)*/}
