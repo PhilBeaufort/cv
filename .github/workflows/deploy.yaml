@@ -25,8 +25,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Install rollup
-        run: npm install rollup
+      - name: Install linux build tools
+        run: npm install rollup @tailwindcss/oxide-linux-x64-gnu
 
 
       - name: Build Project
