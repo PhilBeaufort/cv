@@ -20,7 +20,7 @@ function DateRange({ startDate, endDate }) {
     };
 
     return (
-        <div>
+        <div className='break-inside-avoid'>
             <p className="text-sm text-base-content bg-center flex items-center space-x-2">
                 <img src="https://www.svgrepo.com/show/502605/date-range.svg" alt="Date Range" className="w-5 h-5 mr-1 fill-current"/>
                 {startDate ? (<>  {formatDate(startDate)} - {formatDate(endDate)} </>) : (<>  {formatDate(endDate)} </>)}

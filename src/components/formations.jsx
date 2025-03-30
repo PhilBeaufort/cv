@@ -23,7 +23,7 @@ import React from 'react';
 
 function Formations({ titre, formations }) {
     return (
-        <div>
+        <div className='break-inside-avoid'>
             <h2 className="text-xl font-semibold mt-6 text-secondary mb-1">{titre}</h2>
             <div className="space-y-2">
             {formations.map((f, index) => (
@@ -41,12 +41,12 @@ function Formations({ titre, formations }) {
                     </div>
 
                     {f.items && (
-                    <div class="mt-4 space-y-4">
+                    <div className="mt-4 space-y-4">
                         {f.items.map((item, idx) => (
 
                         <div key={idx} className="border-t-2 border-base-300 pt-2">
-                            <div class="flex items-center justify-between">
-                                <h4 class="font-bold text-secondary">{item.info}</h4>
+                            <div className="flex items-center justify-between">
+                                <h4 className="font-bold text-secondary">{item.info}</h4>
                                 <p className="text-sm text-base-content bg-center flex items-center space-x-2 w-1/5">
                                     <img src="https://www.svgrepo.com/show/502605/date-range.svg" alt="Date Range" className="w-5 h-5 mr-1 fill-current"/>
                                     {item.date_debut ? (<>  {item.date_debut} - {item.date_fin} </>) : (<>  {item.date_fin} </>)}

@@ -24,14 +24,14 @@ import DateRange from './dateRange';
 
 function Formations({ titre, experiences }) {
     return (
-        <div>
+        <div  className='break-inside-avoid'>
             <h2 className="text-xl font-semibold mt-2 text-secondary mb-1">{titre}</h2>
             <div className="space-y-2">
                 {experiences.map((e, index) => (
                 <div key={index} className="bg-base-200 p-3 rounded-lg shadow-md border border-base-300">
                     <div className="flex items-center justify-between">
-                        <div class="flex items-center space-x-4">
-                            <img src={e.image} alt={e.entreprise} class="w-12 h-12 rounded-md" />
+                        <div className="flex items-center space-x-4">
+                            <img src={e.image} alt={e.entreprise} className="w-12 h-12 rounded-md" />
                             <h3 className="text-lg font-semibold text-primary">{e.entreprise}</h3>
                         </div>
                         <p className="text-sm text-base-content w-1/5 flex items-center">
@@ -45,14 +45,14 @@ function Formations({ titre, experiences }) {
                     </div>
 
                     {e.postes && (
-                    <div class="mt-2 space-y-2">
+                    <div className="mt-2 space-y-2">
 
                         {e.postes.map((p, idx) => (
                         <div key={idx} className="border-t-2 border-base-300 pt-4">
-                            <div class="flex items-center justify-between">
+                            <div className="flex items-center justify-between">
                                 <div className="flex items-center space-x-2">
-                                    <h4 class="font-bold text-secondary">{p.poste}</h4>
-                                    <p class="text-sm">({p.type})</p>
+                                    <h4 className="font-bold text-secondary">{p.poste}</h4>
+                                    <p className="text-sm">({p.type})</p>
                                 </div>
                                 <div className='w-1/5'>
                                    <DateRange startDate={p.date_debut} endDate={p.date_fin}/> 
