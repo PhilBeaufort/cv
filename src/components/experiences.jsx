@@ -31,7 +31,7 @@ function Formations({ titre, experiences }) {
                 <div key={index} className="bg-base-200 p-3 rounded-lg shadow-md border border-base-300">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-4">
-                            <img src={e.image} alt={e.entreprise} className="w-12 h-12 rounded-md" />
+                            <img src={e.image} alt={e.entreprise} className="w-20 h-20 rounded-md" />
                             <h3 className="text-lg font-semibold text-primary">{e.entreprise}</h3>
                         </div>
                         <p className="text-sm text-base-content w-1/5 flex items-center">
@@ -50,7 +50,7 @@ function Formations({ titre, experiences }) {
                         {e.postes.map((p, idx) => (
                         <div key={idx} className="border-t-2 border-base-300 pt-4">
                             <div className="flex items-center justify-between">
-                                <div className="flex items-center space-x-2">
+                                <div className="flex items-center space-x-1">
                                     <h4 className="font-bold text-secondary">{p.poste}</h4>
                                     <p className="text-sm">({p.type})</p>
                                 </div>

@@ -8,7 +8,7 @@
     "languages": ["français", "anglais fonctionnel"],
     "presentation": [
         "Récemment diplômé en génie logiciel de l'école de Technologie supérieure. J'ai développé des compétences solides en développement full stack, en gestion de projet et en amélioration de processus à travers mes stages.",
-        "Je suis familier avec la plateforme Google Cloud après mes expérience à L'École de technologie supérieure, je cherche toujours à apprendre sur de nouvelles technologies et je suis toujours à la recherche de nouveaux défis pour améliorer mes compétences."
+        "Je suis familier avec la plateforme Google Cloud après mes expériences à L'École de technologie supérieure, je cherche toujours à apprendre sur de nouvelles technologies et je suis toujours à la recherche de nouveaux défis pour améliorer mes compétences."
     ],
     "formations": [
         {
@@ -68,7 +68,7 @@
     "experiences": [
         {
             "entreprise": "École de technologie supérieure (ÉTS)",
-            "image": "https://media.licdn.com/dms/image/v2/C4D0BAQH41MxloiQfaA/company-logo_100_100/company-logo_100_100/0/1631342438752?e=1748476800&v=beta&t=acITJUGEJ7OPcSfX-bKGpwgi6e3BeatuxY7TjK1YHOg",
+            "image": "etsmtl-logo.png",
             "location": "Montréal, QC",
             "postes": [
                 {
@@ -79,12 +79,12 @@
                     "description": [
                         "Effectuer la migration du chatbot développer sur Google Cloud de Dialogflow ES à CX",
                         "Conception, développement et maintenance de services sur la plateforme Google Cloud pour la traduction ainsi que la catégorisation de statistique et la génération de graphiques automatisés",
-                        "Migrer les répertoires sur GitHub, automatiser les déploiement avec Cloud Build et mise en place d'une sécurité plus robuste avec Google Secret Manager"
+                        "Migrer les répertoires sur GitHub, automatiser les déploiements avec Cloud Build et mise en place d'une sécurité plus robuste avec Google Secret Manager"
                     ]
                 },
                 {
                     "poste": "Analyste en amélioration de processus internes",
-                    "type": "Stage hybride",
+                    "type": "Stage",
                     "date_debut": "09-2023",
                     "date_fin": "12-2024",
                     "description": [
@@ -97,7 +97,7 @@
         },
         {
             "entreprise": "Intact Assurance",
-            "image": "https://media.licdn.com/dms/image/v2/C560BAQGj_cFltge3sg/company-logo_100_100/company-logo_100_100/0/1657574419476?e=1748476800&v=beta&t=5lMgcXwbMdkuBqpLvyM0RrEbHUp71dOj-3A_4wmHmgs",
+            "image": "intact-insurance-logo.png",
             "location": "Saint-Hyacinthe, QC",
             "postes": [
                 {
