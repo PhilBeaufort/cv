@@ -2,8 +2,11 @@
     "nom": "Philippe Beaufort",
     "adresse": "1181 Rang de la Grande-Chaloupe, Saint-Thomas",
     "titre": "Diplômé en ingénierie logiciel",
-    "email": "philippe.beaufort98@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/philippe-beaufort/",
+    "links": {
+        "email": "philippe.beaufort98@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/philippe-beaufort/",
+        "github": "https://github.com/PhilBeaufort/CV"
+    },
     "tel": "(438) 349-1725",
     "languages": ["français", "anglais fonctionnel"],
     "presentation": [

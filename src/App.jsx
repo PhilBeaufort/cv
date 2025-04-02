@@ -5,6 +5,7 @@ import Text from './components/text';
 import Badges from './components/badges';
 import Formations from './components/formations';
 import Experiences from './components/experiences';
+import SocialIcons from './components/socialIcons';
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -22,22 +23,11 @@ function App() {
           </div>
 
           {/* Right side (Email, LinkedIn, Phone, Languages) */}
-          <div className="text-right">
-            <div classNameName="flex items-center space-x-2">
-              <div className="flex justify-end"> 
-                <button className="px-4 py-2 border flex gap-2 border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:text-slate-900 hover:shadow transition duration-150">
-                      <img className="w-7 h-7" src="https://www.svgrepo.com/show/503852/mail.svg" loading="lazy" alt="google logo"/>
-                      <a href={"mailto:" + data.email} className="text-secondary">Courriel</a>
-                </button>
-              </div>
-
-              <div className="flex justify-end"> 
-                <button className="px-4 py-2 border flex gap-2 border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:text-slate-900 hover:shadow transition duration-150">
-                      <img className="w-6 h-6" src="https://www.svgrepo.com/show/475661/linkedin-color.svg" loading="lazy" alt="google logo"/>
-                      <a href={data.linkedin} className="text-secondary">Linkedin</a>
-                </button>
-              </div>
+          <div className="text-right mb-2">
+            <div className="mb-2">
+              <SocialIcons links={data.links}/>
             </div>
+            
             <p>📞 <span className="important-info">{data.tel}</span></p>
             <p className="text-sm">{data.languages.join(", ")}</p>
           </div>
