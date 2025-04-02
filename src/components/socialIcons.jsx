@@ -1,4 +1,4 @@
-import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
+import React from 'react';
 
 const SocialIcons = ({ links }) => {
     console.log(links);
