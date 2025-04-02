@@ -27,8 +27,9 @@ function App() {
             <div className="mb-2">
               <SocialIcons links={data.links}/>
             </div>
-            
-            <p>📞 <span className="important-info">{data.tel}</span></p>
+
+            {data.tel != "" && (
+            <p>📞 <span className="important-info">{data.tel}</span></p>)}
             <p className="text-sm">{data.languages.join(", ")}</p>
           </div>
         </div>

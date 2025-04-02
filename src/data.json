@@ -1,6 +1,6 @@
 {
     "nom": "Philippe Beaufort",
-    "adresse": "1181 Rang de la Grande-Chaloupe, Saint-Thomas",
+    "adresse": "Saint-Thomas, QC, J0K3L0",
     "titre": "Diplômé en ingénierie logiciel",
     "links": {
         "email": "philippe.beaufort98@gmail.com",
@@ -8,7 +8,7 @@
         "github": "https://github.com/PhilBeaufort/CV",
         "pages": "https://philbeaufort.github.io/CV/"
     },
-    "tel": "(438) 349-1725",
+    "tel": "",
     "languages": ["français", "anglais fonctionnel"],
     "presentation": [
         "Récemment diplômé en génie logiciel de l'école de Technologie supérieure. J'ai développé des compétences solides en développement full stack, en gestion de projet et en amélioration de processus à travers mes stages.",
