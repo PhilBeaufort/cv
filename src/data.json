@@ -11,8 +11,8 @@
     "tel": "",
     "languages": ["français", "anglais professionnel"],
     "presentation": [
-        "🎓 Diplômé en génie logiciel de l’ÉTS, j’ai acquis une expérience variée grâce à plusieurs stages et contrats, touchant autant au développement full-stack qu’au DevOps, l'automatisation de processus et la configuration de systèmes et postes spécialisés.",
-        "💻 Je suis particulièrement à l’aise avec JavaScript, TypeScript, Python, Java, Docker et l’écosystème Google Cloud Platform, mais je n’hésite jamais à explorer de nouvelles technologies pour choisir celles qui sont les plus adaptées et performantes selon les besoins.",
+        "🎓 Diplômé en génie logiciel de l'ÉTS, j’ai acquis une expérience variée grâce à plusieurs stages et contrats, touchant autant au développement full-stack qu’au DevOps, l'automatisation de processus et la configuration de systèmes et postes spécialisés.",
+        "💻 Je suis particulièrement à l'aise avec JavaScript, TypeScript, Python, Java, Docker et l’écosystème Google Cloud Platform, mais je n’hésite jamais à explorer de nouvelles technologies pour choisir celles qui sont les plus adaptées et performantes selon les besoins.",
         "🔧 Curieux, autonome et orienté solution, je m'efforce de livrer des résultats concrets, tout en continuant à apprendre chaque jour."
     ],
     "formations": [
@@ -31,7 +31,7 @@
                     "date_fin": "2020"
                 }
             ]
-        },
+        }
     ],
     "language_code": [
         "TypeScript",
