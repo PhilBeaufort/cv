@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://phil.beaufort.dev/",
+  "homepage": "https://cv.beaufort.dev",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
