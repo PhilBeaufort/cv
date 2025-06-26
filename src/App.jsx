@@ -39,12 +39,12 @@ function App() {
 
         {/* Formations */}
         <Formations titre="Formations" formations={data.formations} />
-        
-        {/* Compétences */}
-        <Badges titre="Compétences" items={data.competences} />
 
         {/* Language */}
         <Badges titre="Languages de développement" items={data.language_code} />
+        
+        {/* Compétences */}
+        <Badges titre="Compétences" items={data.competences} />
 
         {/* Expériences */}
         <Experiences titre="Expériences" experiences={data.experiences} />
