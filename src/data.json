@@ -1,6 +1,6 @@
 {
     "nom": "Philippe Beaufort",
-    "adresse": "Saint-Thomas, QC, J0K3L0",
+    "adresse": "",
     "titre": "Diplômé en ingénierie logiciel",
     "links": {
         "email": "philippe.beaufort98@gmail.com",
@@ -9,10 +9,11 @@
         "pages": "https://philbeaufort.github.io/cv/"
     },
     "tel": "",
-    "languages": ["français", "anglais fonctionnel"],
+    "languages": ["français", "anglais professionnel"],
     "presentation": [
-        "Récemment diplômé en génie logiciel de l'école de Technologie supérieure. J'ai développé des compétences solides en développement full stack, en gestion de projet et en amélioration de processus à travers mes stages.",
-        "Je suis familier avec la plateforme Google Cloud après mes expériences à L'École de technologie supérieure, je cherche toujours à apprendre sur de nouvelles technologies et je suis toujours à la recherche de nouveaux défis pour améliorer mes compétences."
+        "🎓 Diplômé en génie logiciel de l’ÉTS, j’ai acquis une expérience variée grâce à plusieurs stages et contrats, touchant autant au développement full-stack qu’au DevOps, l'automatisation de processus et la configuration de systèmes et postes spécialisés.",
+        "💻 Je suis particulièrement à l’aise avec JavaScript, TypeScript, Python, Java, Docker et l’écosystème Google Cloud Platform, mais je n’hésite jamais à explorer de nouvelles technologies pour choisir celles qui sont les plus adaptées et performantes selon les besoins.",
+        "🔧 Curieux, autonome et orienté solution, je m'efforce de livrer des résultats concrets, tout en continuant à apprendre chaque jour."
     ],
     "formations": [
         {
@@ -31,17 +32,18 @@
                 }
             ]
         },
-        {
-            "ecole": "Cégep régional de Lanaudière",
-            "location": "Joliette, QC",
-            "items":[
-                {
-                    "info": "Diplôme d'étude collégiale en sciences de la nature",
-                    "date_debut": "",
-                    "date_fin": "2019"
-                }
-            ]
-        }
+    ],
+    "language_code": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Java",
+        "Gosu",
+        "HTML/CSS",
+        "SQL",
+        "C#",
+        "C++",
+        "Go"
     ],
     "competences": [
         "Node.js",
@@ -55,19 +57,11 @@
         "Google Firebase",
         "Firestore",
         "MongoDB",
-        "PostGreSQL",
+        "PostgreSQL",
+        "MySQL",
         "Postman",
-        "Git"
-    ],
-    "language_code": [
-        "Java",
-        "Gosu",
-        "JavaScript",
-        "TypeScript",
-        "Python",
-        "HTML/CSS",
-        "C#",
-        "SQL"
+        "Git",
+        "Bun"
     ],
     "experiences": [
         {
@@ -76,25 +70,28 @@
             "location": "Montréal, QC",
             "postes": [
                 {
-                    "poste": "Analyste informatique",
+                    "poste": "Développeur DevOps",
                     "type": "Indépendant",
                     "date_debut": "01-2025",
-                    "date_fin": "Présent",
+                    "date_fin": "04-2025",
                     "description": [
-                        "Effectuer la migration du chatbot développer sur Google Cloud de Dialogflow ES à CX",
-                        "Conception, développement et maintenance de services sur la plateforme Google Cloud pour la traduction ainsi que la catégorisation de statistique et la génération de graphiques automatisés",
-                        "Migrer les répertoires sur GitHub, automatiser les déploiements avec Cloud Build et mise en place d'une sécurité plus robuste avec Google Secret Manager"
+                        "Migrer un agent conversationnel Dialogflow ES vers CX avec des scripts Python et ajout d’AI (Gemini)",
+                        "Analyser les besoins et mettre en œuvre des solutions",
+                        "Développer des microservices sur Google Cloud (traduction, génération et catégorisation de statistiques et graphiques) avec Python, JS, TS",
+                        "Migrer des projets vers GitHub, automatiser les CI/CD avec Cloud Build et gérer les secrets via Secret Manager",
+                        "Configurer des kiosques Windows 11 et développer des interfaces web (HTML/CSS/JS)",
+                        "Créer de la documentation technique web avec Jekyll"
                     ]
                 },
                 {
-                    "poste": "Analyste en amélioration de processus internes",
+                    "poste": "Analyste fonctionnel",
                     "type": "Stage",
                     "date_debut": "09-2023",
                     "date_fin": "12-2024",
                     "description": [
-                        "Gérer et développer un projet avec Google pour assister les agents téléphoniques du STI pour centraliser les connaissances et suggérer de la documentation pertinente pendant un appel",
-                        "Mettre en place un kiosque personnalisé au besoin du département avec Windows",
-                        "Développer des outils et des améliorations pour les solutions en place avec Google Cloud"
+                        "Gérer et développer un projet d’assistance téléphonique intelligent avec Google, centralisant les connaissances et suggérant la documentation en temps réel",
+                        "Développer un kiosque Windows personnalisé selon les besoins du département",
+                        "Créer des outils et améliorer des solutions existantes sur Google Cloud"
                     ]
                 }
             ]
@@ -105,23 +102,23 @@
             "location": "Saint-Hyacinthe, QC",
             "postes": [
                 {
-                    "poste": "Développeur full stack",
+                    "poste": "Développeur full-stack",
                     "type": "Stage",
                     "date_debut": "09-2022",
                     "date_fin": "05-2023",
                     "description": [
-                        "Développer une application interne utilisant les outils Angular, Typescript, Node, Spring Boot, Java, Maven, H2, Hibernate, Oracle et Jenkins",
-                        "Rechercher et développer pour ajouter des fonctionnalités permettant de réaliser de tests automatisés dans cette application",
-                        "Mettre à jours et migrer des applications"
+                        "Développer une application full-stack avec Angular, TypeScript, Node.js, Spring Boot, Java, Maven, Hibernate, Oracle, H2 et Jenkins",
+                        "Résoudre des bogues et gérer les tests automatisés dans l’application",
+                        "Implémenter des correctifs de sécurité et mettre à jour les dépendances"
                     ]
                 },
                 {
-                    "poste": "Analyste assurance qualité IT",
+                    "poste": "Développeur de tests automatisés",
                     "type": "Stage",
                     "date_debut": "09-2021",
                     "date_fin": "05-2022",
                     "description": [
-                        "Concevoir, entretenir, réparer et ajuster des tests fonctionnels automatisés avec les outils Cucumber, Fitness et Sélénium"
+                        "Concevoir, entretenir, réparer et ajuster des tests fonctionnels automatisés avec Cucumber, Fitness et Selenium"
                     ]
                 }
             ]
